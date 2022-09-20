@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: $base-padding * 2;
+  box-shadow: $base-box-shadow;
+  border-radius: $base-border-radius;
+  border: $base-border;
+  // width: 100%;
+
+  .card-title {
+    font-size: $md;
+    font-weight: bold;
+    padding-bottom: $base-padding;
+  }
+  .card-body {
+    font-size: $base-font-size;
+    word-wrap: break-word;
+    a {
+      text-decoration: underline;
+    }
+  }
+}

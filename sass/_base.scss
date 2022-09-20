@@ -1,0 +1,46 @@
+// import google font
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
+
+@font-face {
+  font-family: "right_groteskwide_medium";
+  src: url("../public/rightgrotesk-widemedium-webfont.woff2") format("woff2"),
+    url("../public/rightgrotesk-widemedium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Lato;
+  background-color: $black;
+  color: $white;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.grotesk {
+  font-family: "right_groteskwide_medium";
+}
+
+.underline {
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+// theme colors
+
+$primary: #b389c7;
+$white: #fffce8;
+$black: #191915;
+$dark-background: #24241e;
+
+$colors: (
+  "primary": $primary,
+  "black": #191915,
+  "dark-background": #24241e,
+);
+
+// spacing
+
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-radius: 8px;
+$base-border-thickness: 1px;
+$base-border: 1px solid rgba(0, 0, 0, 0.1);
+
+// box shadows
+$base-box-shadow: 0px 75px 30px rgba(0, 0, 0, 0.01),
+  0px 42px 25px rgba(0, 0, 0, 0.04), 0px 19px 19px rgba(0, 0, 0, 0.06),
+  0px 5px 10px rgba(0, 0, 0, 0.07), 0px 0px 0px rgba(0, 0, 0, 0.07);
+
+// font-sizes
+$base-font-size: 1rem;
+$font-scale: 1.309;
+$xsm: calc($base-font-size/$font-scale);
+$sm: calc($base-font-size * $font-scale);
+$md: calc($sm * $font-scale);
+$lg: calc($md * $font-scale);
+$xl: calc($lg * $font-scale);
+$display: calc($xl * $font-scale);
+$display-xl: calc($display * $font-scale);
+
+// $font-sizes: (
+//   'xsm': $xsm,
+//   'sm': $sm,
+//   'md': $md,
+//   'lg': $lg,
+//   'xl': $xl,
+//   'display': $display,
+//   'display-xl': $display-xl,
+// );
