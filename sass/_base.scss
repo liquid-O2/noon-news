@@ -1,10 +1,10 @@
 // import google font
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
 
 @font-face {
-  font-family: "right_groteskwide_medium";
-  src: url("../public/rightgrotesk-widemedium-webfont.woff2") format("woff2"),
-    url("../public/rightgrotesk-widemedium-webfont.woff") format("woff");
+  font-family: 'right_groteskwide_medium';
+  src: url('../public/rightgrotesk-widemedium-webfont.woff2') format('woff2'),
+    url('../public/rightgrotesk-widemedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: Lato;
+  font-family: 'right_groteskwide_medium';
   background-color: $black;
   color: $white;
 }
@@ -38,9 +38,12 @@ img {
 }
 
 .grotesk {
-  font-family: "right_groteskwide_medium";
+  font-family: 'right_groteskwide_medium';
 }
 
 .underline {
   text-decoration: underline;
+}
+.lato {
+  font-family: Lato;
 }
