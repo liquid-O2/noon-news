@@ -16,3 +16,13 @@
 // utilities (margin, padding, opacity)
 @import 'sizes';
 @import 'utilities';
+
+@media screen and (min-width: 600px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
