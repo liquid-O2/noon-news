@@ -9,9 +9,11 @@ const Navbar = ({ active }) => {
           {' '}
           <Link href='/'>
             {active === 'top' && active != 'new' ? (
-              <a className='font-md grotesk mr-1 text-white'>Top Stories</a>
+              <a className='font-md grotesk mr-1 text-white navhead'>
+                Top Stories
+              </a>
             ) : (
-              <a className='font-md grotesk mr-1 text-primary underline'>
+              <a className='font-md grotesk mr-1 text-primary underline navhead'>
                 Top Stories
               </a>
             )}
@@ -20,9 +22,11 @@ const Navbar = ({ active }) => {
             {
               (active =
                 'new' && active != 'top' ? (
-                  <a className='font-md grotesk text-white'>New Stories</a>
+                  <a className='font-md grotesk text-white navhead'>
+                    New Stories
+                  </a>
                 ) : (
-                  <a className='font-md grotesk text-primary underline'>
+                  <a className='font-md grotesk text-primary underline navhead'>
                     New Stories
                   </a>
                 ))

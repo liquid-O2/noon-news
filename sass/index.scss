@@ -17,10 +17,13 @@
 @import 'sizes';
 @import 'utilities';
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
-    padding: 0 0rem;
-    margin: 0 24px;
+    padding: 0 0;
+    margin: 0 16px;
+  }
+  .navhead {
+    font-size: $sm;
   }
 }
 
