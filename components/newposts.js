@@ -7,7 +7,7 @@ const options = {
     'X-RapidAPI-Host': 'community-hacker-news-v1.p.rapidapi.com',
   },
 };
-const idReducer = (state, action) => {
+const newIdReducer = (state, action) => {
   if (action.type === 'success') {
     return {
       ...state,
@@ -16,11 +16,11 @@ const idReducer = (state, action) => {
   }
 };
 
-const postReducer = (state, action) => {
+const newPostReducer = (state, action) => {
   if (action.type === 'success') {
     return {
       ...state,
-      title: [...state.title, action.data.title],
+      newTitle: [...state.newTitle, action.data.title],
       url: [...state.url, action.data.url],
       user: [...state.user, action.data.by],
       id: [...state.id, action.data.id],
@@ -28,22 +28,20 @@ const postReducer = (state, action) => {
   }
 };
 
-export function Posts() {
-  const [ids, dispatchIds] = React.useReducer(idReducer, { id: null });
-  const [posts, dispatchPosts] = React.useReducer(postReducer, {
-    title: [],
+export function NewPosts() {
+  const [ids, dispatchIds] = React.useReducer(newIdReducer, { id: null });
+  const [posts, dispatchPosts] = React.useReducer(newPostReducer, {
+    newTitle: [],
     url: [],
     user: [],
     id: [],
   });
   React.useEffect(() => {
-    fetch(
-      'https://community-hacker-news-v1.p.rapidapi.com/topstories.json?print=pretty',
-      options
-    )
+    fetch('https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty')
       .then((response) => response.json())
       .then((response) => {
         dispatchIds({ type: 'success', data: response });
+        console.log(response);
       })
       .catch((err) => console.error(err));
   }, []);
@@ -70,7 +68,7 @@ export function Posts() {
           <div key={id} className='card bg-dark-background mb-2'>
             <a href={posts.url[index]}>
               <h2 className='font-md grotesk text-primary underline'>
-                {posts.title[index]}
+                {posts.newTitle[index]}
               </h2>
             </a>
 
