@@ -16,7 +16,7 @@ This app was built using React, React Hooks, CSS, and JavaScript.
 
 ## Getting Started
 
-To get started with Ideaboard, either visit the [Live website](https://noon-news.vercel.app/) 
+To get started with Noon News, either visit the [Live website](https://noon-news.vercel.app/) 
 or simply clone the repository and install the dependencies:
 
 ```bash
