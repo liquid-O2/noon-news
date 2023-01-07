@@ -49,6 +49,7 @@ npm run test
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html) - A way to use state and other React features without writing a class
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - A stylesheet language used for describing the look and formatting of a document written in HTML
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A programming language used for building web applications
+- [SASS](https://sass-lang.com/)- Superset of CSS with programming language like syntax and features
 
 <br>
 ## Contributing
