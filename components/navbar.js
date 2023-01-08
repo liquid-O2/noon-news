@@ -6,7 +6,6 @@ const Navbar = ({ active }) => {
       <div className='container display-f flex-column mt-4'>
         <h3 className='mb-2 font-lg grotesk'>Noon News</h3>
         <div className='display-f'>
-          {' '}
           <Link href='/'>
             {active === 'top' && active != 'new' ? (
               <a className='font-md grotesk mr-1 text-white navhead'>Top Stories</a>
