@@ -49,11 +49,12 @@ npm run test
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html) - A way to use state and other React features without writing a class
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - A stylesheet language used for describing the look and formatting of a document written in HTML
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A programming language used for building web applications
-- [SASS](https://sass-lang.com/)- Superset of CSS with programming language like syntax and features
+- [SASS](https://sass-lang.com/)- A stylesheet language that extends CSS with features such as variables and mixins
 
 <br>
+
 ## Contributing
-If you'd like to contribute to Ideaboard, please fork the repository and make your changes as a separate branch. Once you've made your changes, open a pull request and we'll review your submission.
+If you'd like to contribute to Noon News, please fork the repository and make your changes as a separate branch. Once you've made your changes, open a pull request and we'll review your submission.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE]() file for details.
