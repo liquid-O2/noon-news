@@ -1,8 +1,10 @@
+![image](https://cdn.sanity.io/images/lo6epx6n/production/501a7980127bf66608f6b40939b5dd33606e1310-6000x4500.jpg)
+
 # Noon News
 
 Noon News is a news aggregator app that fetches its data from the HackerNews API. Stay up to date on the latest tech news, business developments, and more with Noon News.
 
-This app was built using React, React Hooks, CSS, and JavaScript.
+This app was built using Next.js 12, React, React Hooks, CSS, and JavaScript.
 
 <br> 
 
