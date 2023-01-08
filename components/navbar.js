@@ -4,7 +4,7 @@ const Navbar = ({ active }) => {
   return (
     <nav>
       <div className='container display-f flex-column mt-3'>
-        <h3 className='mb-2 font-lg grotesk'>HackerNews</h3>
+        <h3 className='mb-2 font-lg grotesk'>Noon News</h3>
         <div className='display-f'>
           {' '}
           <Link href='/'>
